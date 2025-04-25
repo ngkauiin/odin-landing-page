@@ -6,6 +6,7 @@
 
 a {
   text-decoration: none;
+  color: #F9FAF8;;
 }
 
 header,
@@ -17,5 +18,15 @@ footer {
 
 .quote-container {
   background-color: #E5E7EB;
+}
+
+header {
+  display: flex;
+  gap: 20px;
+  padding: 10px 15vw;
+}
+
+.logo {
+  margin-right: auto;
 }
 
