@@ -75,7 +75,30 @@ header {
   background-color: azure;
   width: 30vw;
   height: 100px;
-  display: block;
+  display: inline-block;
+}
+
+.info-container {
+  text-align: center;
+}
+
+.info-items-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.info {
+  max-width: 200px;
+}
+
+.info-items-container img {
+  border-style: solid;
+  border-color: #3882F6;
+  border-radius: 20px;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
 }
 
 .quote-container {
