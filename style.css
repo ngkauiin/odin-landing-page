@@ -145,6 +145,7 @@ header {
   color: white;
   padding: 20px 100px;
   border-radius: 20px;
+  gap: 20px;
 }
 
 .call-to-action-box button {
