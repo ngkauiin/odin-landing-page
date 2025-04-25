@@ -66,6 +66,7 @@ header {
 .text {
   font-size: 18px;
   color: #E5E7EB;
+  margin: 10px 0;
 }
 
 .sign-up-button {
