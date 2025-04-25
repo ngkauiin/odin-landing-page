@@ -47,6 +47,10 @@ header {
   padding-bottom: 10px;
 }
 
+.logo {
+  margin-right: auto;
+}
+
 .top-container {
   display: flex;
   align-items: center;
@@ -109,10 +113,24 @@ header {
 
 .quote-container {
   background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.logo {
-  margin-right: auto;
+.quote {
+  width: 50vw;
+  font-size: 36px;
+  font-style: italic;
+  font-weight:lighter;
+  color: #1F2937;
+}
+
+.quote .author {
+  text-align: right;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
 }
 
 
