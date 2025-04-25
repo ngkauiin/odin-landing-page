@@ -40,6 +40,18 @@ footer {
   flex-grow: 1;
 }
 
+.top-container {
+  display: flex;
+  align-items: center;
+}
+
+.right-container img{
+  background-color: azure;
+  width: 30vw;
+  height: 100px;
+  display: block;
+}
+
 .quote-container {
   background-color: #E5E7EB;
 }
