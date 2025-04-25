@@ -133,5 +133,33 @@ header {
   font-weight: bold;
 }
 
+.call-to-action-container,
+.call-to-action-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action-box {
+  background-color: #3882F6;
+  color: white;
+  padding: 20px 100px;
+  border-radius: 20px;
+}
+
+.call-to-action-box button {
+  flex-shrink: 0;
+  border-style: solid;
+  border-color: white;
+}
+
+.call-to-action-title {
+  font-weight: bold;
+}
+
+.call-to-action-text {
+  font-weight: 300;
+}
+
 
 
