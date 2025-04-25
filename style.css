@@ -54,6 +54,7 @@ header {
 .top-container {
   display: flex;
   align-items: center;
+  gap: 30px;
 }
 
 .main-title {
