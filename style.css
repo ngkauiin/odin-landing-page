@@ -18,9 +18,26 @@ a {
 
 header,
 .top-container,
+.info-container,
+.quote-container,
+.call-to-action-container,
+footer {
+  padding-left: 15vw;
+  padding-right: 15vw;
+}
+
+header,
+.top-container,
 footer {
   background-color: #1F2937;
   color: #F9FAF8;
+}
+
+.top-container,
+.info-container,
+.quote-container,
+.call-to-action-container {
+  flex-grow: 1;
 }
 
 .quote-container {
@@ -30,7 +47,8 @@ footer {
 header {
   display: flex;
   gap: 20px;
-  padding: 10px 15vw;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .logo {
